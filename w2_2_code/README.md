@@ -10,8 +10,10 @@ npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
+npx hardhat ./scripts/deploy.js
 npx hardhat help
 ```
 
-
+### 部署结果
+- [Score合约部署](https://www.oklink.com/zh-cn/oec-test/address/0x06B1ca9E4DcBD0E7648e01Af738A03e733916A3e)
+- [Teacher合约部署](https://www.oklink.com/zh-cn/oec-test/address/0xc0ED240E624286bc877De4aa4F36d0a62c614ee9)

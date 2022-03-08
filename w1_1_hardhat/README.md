@@ -10,7 +10,7 @@ npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
+npx hardhat ./scripts/deploy.js
 npx hardhat help
 ```
 ### 部署结果
